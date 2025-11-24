@@ -1,0 +1,19 @@
+{
+	"Name": "Заметки",
+	"Description": "Это плагин заметок для Stream Dock.",
+	"Category": "Заметки",
+	"com.mirabox.streamdock.notes.add-note": {
+		"Name": "Добавить заметку",
+		"Tooltip": "Добавить заметку"
+	},
+	"com.mirabox.streamdock.notes.toggle-visible": {
+		"Name": "Показать или скрыть заметки",
+		"Tooltip": "Переключить видимость заметок"
+	},
+	"Localization": {
+		"hide": "Скрыть",
+		"visible": "Видимый",
+		"enter custom title ...": "Введите собственный заголовок ...",
+		"No notes": "Нет заметок"
+	}
+}

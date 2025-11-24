@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Toggle Visible - Property Inspector</title>
+		<link rel="stylesheet" href="styles/index.css" />
+	</head>
+
+	<body>
+		<ul class="notes-list"></ul>
+
+		<template id="notes-list-item-template">
+			<li class="item">
+				<img class="note-icon" src="../../static/notes-logo.png" alt="note icon" />
+
+				<span class="note-title"></span>
+				<input class="note-title-input" type="text" />
+
+				<div style="flex: 1"></div>
+
+				<span class="visibility-tip">隐藏</span>
+				<img class="visibility-icon" src="../../static/invisible.png" alt="visibility icon" />
+			</li>
+		</template>
+
+		<script src="../common/i18n.js"></script>
+		<script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+{
+	"Name": "便签",
+	"Description": "这是一个Stream Dock的便签插件",
+	"Category": "便签",
+	"com.mirabox.streamdock.notes.add-note": {
+		"Name": "添加便签",
+		"Tooltip": "添加便签"
+	},
+	"com.mirabox.streamdock.notes.toggle-visible": {
+		"Name": "显示或隐藏便签",
+		"Tooltip": "显示或隐藏便签"
+	},
+	"Localization": {
+		"hide": "隐藏",
+		"visible": "可见",
+		"enter custom title ...": "输入自定义标题",
+		"No notes": "没有便签"
+	}
+}

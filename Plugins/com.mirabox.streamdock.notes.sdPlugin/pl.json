@@ -1,0 +1,19 @@
+{
+	"Name": "Notatka",
+	"Description": "To jest wtyczka notatek dla Stream Dock.",
+	"Category": "Notatki",
+	"com.mirabox.streamdock.notes.add-note": {
+		"Name": "Dodaj notatkę",
+		"Tooltip": "Dodaj notatkę"
+	},
+	"com.mirabox.streamdock.notes.toggle-visible": {
+		"Name": "Pokaż lub ukryj notatki",
+		"Tooltip": "Przełącz widoczność notatek"
+	},
+	"Localization": {
+		"hide": "Ukryj",
+		"visible": "Widoczny",
+		"enter custom title ...": "Wpisz własny tytuł ...",
+		"No notes": "Brak notatek"
+	}
+}

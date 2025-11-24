@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/src/note/assets/styles/note.css" />
+		<title>note window</title>
+	</head>
+
+	<body class="body">
+		<header data-tauri-drag-region class="header">
+			<div class="bg-color-wrapper">
+				<img class="bg-color-btn" src="/src/note/assets/icons/background-color.png" alt="pick background color button icon" />
+
+				<div class="bg-color-picker invisible">
+					<ul class="preset-colors">
+						<li class="preset-color" style="background-color: #f8f8b6"></li>
+						<li class="preset-color" style="background-color: #f8cda1"></li>
+						<li class="preset-color" style="background-color: #c9ecf8"></li>
+						<li class="preset-color" style="background-color: #c5f7c1"></li>
+						<li class="preset-color" style="background-color: #f1c3f1"></li>
+						<li class="preset-color" style="background-color: #d4cdf3"></li>
+						<li class="preset-color" style="background-color: #f7c5c1"></li>
+					</ul>
+					<div class="custom-color">
+						<input type="color" />
+						<span class="echo-color"></span>
+					</div>
+				</div>
+			</div>
+
+			<span class="note-title">便签</span>
+
+			<img class="close-btn" src="/src/note/assets/icons/close.png" alt="close button icon" />
+		</header>
+
+		<main class="content">
+			<textarea></textarea>
+		</main>
+
+		<script type="module" defer src="/src/note/note.ts"></script>
+	</body>
+</html>

@@ -1,0 +1,19 @@
+{
+	"Name": "Notas",
+	"Description": "Este é um plugin de notas para o Stream Dock.",
+	"Category": "Notas",
+	"com.mirabox.streamdock.notes.add-note": {
+		"Name": "Adicionar nota",
+		"Tooltip": "Adicionar uma nota"
+	},
+	"com.mirabox.streamdock.notes.toggle-visible": {
+		"Name": "Mostrar ou ocultar notas",
+		"Tooltip": "Alternar visibilidade das notas"
+	},
+	"Localization": {
+		"hide": "Ocultar",
+		"visible": "Visível",
+		"enter custom title ...": "Insira um título personalizado ...",
+		"No notes": "Nenhuma nota"
+	}
+}
