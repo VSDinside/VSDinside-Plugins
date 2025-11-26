@@ -1,7 +1,7 @@
 ## 目录结构
 
 ```
-com.mirabox.streamdock.notes.sdPlugin          插件根目录
+com.vsdinside.streamdock.notes.sdPlugin          插件根目录
                      |
                      |--- plugin\              插件进程端目录，使用 tauri 编写，是一个 tauri 模板项目目录
                      |       |
